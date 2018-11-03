@@ -23,3 +23,7 @@ $ git push
 
 8. 撤销修改
 $ git reset <file_name>
+
+9. 查看用户配置信息
+$ git config user.name
+$ git config user.email
