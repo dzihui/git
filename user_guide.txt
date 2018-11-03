@@ -1,0 +1,25 @@
+1. 初始化配置git
+$ git config --global user.name dengzihui
+$ git config --global user.email deng.zihui@foxmail.com
+
+2. 初始化git repository
+$ cd git_dir
+$ git init
+
+3. clone 远程repository
+$ git clone <url>
+
+4. 创建文件
+$ touch ReadMe.txt
+
+5. 将文件加入repository
+$ git add *.*
+
+6. 提交修改
+$ git commit -m "<comments>"
+
+7. push到远程repository
+$ git push
+
+8. 撤销修改
+$ git reset <file_name>
